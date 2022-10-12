@@ -1,0 +1,59 @@
+name: gamified_todo
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+
+  # UI-Style
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.1.0
+  infinite_listview: ^1.1.0
+  animations: ^2.0.2
+
+  # State Management
+  provider: ^6.0.1
+
+  # Local Storage
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+  # Models
+  uuid: ^3.0.5
+
+  # Data Format
+  intl: ^0.17.0
+
+  # Data Structures
+  tuple: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Automations
+  build_runner: ^2.1.5
+
+  # Clean code
+  flutter_lints: ^1.0.0
+
+  # Local Storage
+  hive_generator: ^1.1.1
+
+  # Helpers
+  url_launcher: ^6.0.18
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons/
